@@ -4,12 +4,13 @@
 ! author: StasonJatham
 ! avatar: #de0320
 
-$boost=2,site=telefonbuch.de
-$boost=2,site=northdata.de
-$boost=2,site=unternehmensregister.de
 
-$boost=1,site=facebook.com
-$boost=1,site=twitter.com
-$boost=1,site=linkedin.com
+$boost=4,site=telefonbuch.de
+$boost=4,site=northdata.de
+$boost=4,site=unternehmensregister.de
+
+$boost=2,site=facebook.com
+$boost=2,site=twitter.com
+$boost=2,site=linkedin.com
 
 
