@@ -1,30 +1,31 @@
 ! name: DACH OSINT
-! description: German OSINT Goggle
+! description: OSINT Goggle for the DACH (Germany, Austria and Switzerland) Region
 ! public: true
 ! author: StasonJatham
-! avatar: #de0320
+! avatar: #ec4899
 
 ! Remove results not matching any other rule
 $discard
+
+! Boost TLDs
+$boost=4,site=*.de
+$boost=4,site=*.at
+$boost=4,site=*.ch
 
 ! German Platforms
 $boost=4,site=telefonbuch.de
 $boost=4,site=northdata.de
 $boost=4,site=unternehmensregister.de
-$boost=3,site=*.de
-$boost=2,site=telefonbuch.de
-$boost=2,northdata.de
-$boost=2,unternehmensregister.de
 
 ! Personal/Business contact information
 /kontakt*$boost=3
 /datenschutz*$boost=3
-/kontakt*$boost=3
 /impressum*$boost=3
 
-
-$boost=2,site=facebook.com
-$boost=2,site=twitter.com
-$boost=2,site=linkedin.com
+! Small boost for social media
+$boost=1,site=facebook.com
+$boost=1,site=twitter.com
+$boost=1,site=linkedin.com
+$boost=1,site=xing.com
 
 
