@@ -14,9 +14,4 @@ $boost=1,site="facebook.com"
 $boost=1,site="twitter.com"
 $boost=1,site="linkedin.com"
 
-$boost=2,site="*.github.io"
-$boost=2,site="*.gitlab.io"
-$boost=2,site="*.dev"
-$boost=2,site="*.tk"
-$boost=2,site="*.xyz"
 
