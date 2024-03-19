@@ -6,30 +6,17 @@
 
 $discard
 
-# Prioritize German platforms
 $boost=2,site="telefonbuch.de"
 $boost=2,site="northdata.de"
 $boost=2,site="unternehmensregister.de"
 
-# Social media (with some boost)
 $boost=1,site="facebook.com"
 $boost=1,site="twitter.com"
 $boost=1,site="linkedin.com"
 
-# Social media profiles (but downrank major platforms)
-$downrank,site="*.facebook.com"
-$downrank,site="*.twitter.com"
-$downrank,site="*.linkedin.com"
-
-# Personal websites and blogs
 $boost=2,site="*.github.io"
 $boost=2,site="*.gitlab.io"
 $boost=2,site="*.dev"
 $boost=2,site="*.tk"
 $boost=2,site="*.xyz"
-$boost=1,path=~"/blog"
 
-# Niche platforms
-
-# Search history (avoid for privacy reasons)
-# $discard,history
