@@ -8,9 +8,9 @@
 $discard
 
 ! Boost TLDs
-$boost=4,site=*.de
-$boost=4,site=*.at
-$boost=4,site=*.ch
+$boost=3,site=*.de*
+$boost=3,site=*.at*
+$boost=3,site=*.ch*
 
 ! German Platforms
 $boost=4,site=telefonbuch.de
