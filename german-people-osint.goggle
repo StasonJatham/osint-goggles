@@ -5,9 +5,6 @@
 ! avatar: #ec4899
 
 ! Remove results not matching any other rule
-$discard
-
-! German Platforms
 $boost=4,site=telefonbuch.de
 $boost=4,site=northdata.de
 $boost=4,site=unternehmensregister.de
