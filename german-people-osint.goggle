@@ -9,6 +9,11 @@ $boost=4,site=telefonbuch.de
 $boost=4,site=northdata.de
 $boost=4,site=unternehmensregister.de
 
+! Personal/Business contact information
+/kontakt*$boost=3
+/datenschutz*$boost=3
+/impressum*$boost=3
+
 ! Small boost for social media
 $boost=1,site=facebook.com
 $boost=1,site=twitter.com
