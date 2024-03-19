@@ -2,36 +2,36 @@
 ! description: Find information about people in Germany using publicly available sources.
 ! public: true
 ! author: Karl
-! avatar: #9244e0
+! avatar: "#9244e0"
 
 $discard
 
 # Prioritize German platforms
-$boost=3,site=.de # German top-level domain
-$boost=3,site=~"/impressum.*"
-$boost=3,site=~"/datenschutz.*"
-$boost=3,site=~"/kontakt.*"
-$boost=2,site=telefonbuch.de
-$boost=2,site=northdata.de
-$boost=2,site=unternehmensregister.de
+$boost=3,site=".de" # German top-level domain
+$boost=3,path=~"/impressum.*"
+$boost=3,path=~"/datenschutz.*"
+$boost=3,path=~"/kontakt.*"
+$boost=2,site="telefonbuch.de"
+$boost=2,site="northdata.de"
+$boost=2,site="unternehmensregister.de"
 
 # Social media (with some boost)
-$boost=1,site=facebook.com
-$boost=1,site=twitter.com
-$boost=1,site=linkedin.com
+$boost=1,site="facebook.com"
+$boost=1,site="twitter.com"
+$boost=1,site="linkedin.com"
 
 # Social media profiles (but downrank major platforms)
-$downrank,site=~"\\*.facebook.com"
-$downrank,site=~"\\*.twitter.com"
-$downrank,site=~"\\*.linkedin.com"
+$downrank,site="*.facebook.com"
+$downrank,site="*.twitter.com"
+$downrank,site="*.linkedin.com"
 
 # Personal websites and blogs
-$boost=2,site=~"\\*.github.io"
-$boost=2,site=~"\\*.gitlab.io"
-$boost=2,site=~"\\*.dev"
-$boost=2,site=~"\\*.tk"
-$boost=2,site=~"\\*.xyz"
-$boost=1,site=~"/blog"
+$boost=2,site="*.github.io"
+$boost=2,site="*.gitlab.io"
+$boost=2,site="*.dev"
+$boost=2,site="*.tk"
+$boost=2,site="*.xyz"
+$boost=1,path=~"/blog"
 
 # Niche platforms
 
