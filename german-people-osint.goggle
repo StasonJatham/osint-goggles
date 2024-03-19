@@ -4,10 +4,8 @@
 ! author: StasonJatham
 ! avatar: #ec4899
 
-! Boost TLDs
-$boost=4,site=*.de*
-$boost=4,site=*.at*
-$boost=4,site=*.ch*
+! Remove results not matching any other rule
+$discard
 
 ! German Platforms
 $boost=4,site=telefonbuch.de
