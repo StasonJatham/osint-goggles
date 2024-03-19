@@ -7,10 +7,7 @@
 ! Remove results not matching any other rule
 $discard
 
-! Boost TLDs
-$boost=4,site=*.de*
-$boost=4,site=*.at*
-$boost=4,site=*.ch*
+
 
 ! German Platforms
 $boost=4,site=telefonbuch.de
