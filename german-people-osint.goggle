@@ -4,8 +4,6 @@
 ! author: Karl
 ! avatar: "#9244e0"
 
-$discard
-
 $boost=2,site="telefonbuch.de"
 $boost=2,site="northdata.de"
 $boost=2,site="unternehmensregister.de"
