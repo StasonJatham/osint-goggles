@@ -9,13 +9,29 @@ $boost=4,site=telefonbuch.de
 $boost=4,site=northdata.de
 $boost=4,site=unternehmensregister.de
 
-! Personal/Business contact information
-/kontakt*$boost=3
-/datenschutz*$boost=3
-/impressum*$boost=3
-
 ! Small boost for social media
 $boost=1,site=facebook.com
 $boost=1,site=twitter.com
 $boost=1,site=linkedin.com
 $boost=1,site=xing.com
+
+! Personal/Business contact information, path boost
+/kontakt*$boost=3
+/datenschutz*$boost=3
+/impressum*$boost=3
+
+! general boost, words included in pages
+*mail*$boost=1,site=de
+*mail*$boost=1,site=at
+*mail*$boost=1,site=ch
+*adresse*$boost=1,site=de
+*adresse*$boost=1,site=at
+*adresse*$boost=1,site=ch
+
+! personal email
+*gmx*$boost=1
+*web*$boost=1
+*t-online*$boost=1
+*gmail*$boost=1
+*yahoo*$boost=1
+
