@@ -4,10 +4,7 @@
 ! author: Karl
 ! avatar: "#9244e0"
 
-$discard
-
-# Prioritize German platforms
-$boost=3,site=".de" # German top-level domain
+$boost=3,site=".de"
 $boost=3,path=~"/impressum.*"
 $boost=3,path=~"/datenschutz.*"
 $boost=3,path=~"/kontakt.*"
