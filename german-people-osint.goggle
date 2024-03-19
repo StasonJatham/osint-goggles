@@ -6,14 +6,21 @@
 
 ! German Platforms
 $boost=4,site=telefonbuch.de
+$boost=4,site=dastelefonbuch.de
 $boost=4,site=northdata.de
 $boost=4,site=unternehmensregister.de
+$boost=4,site=firmen.wko.at
 
 ! Small boost for social media
 $boost=1,site=facebook.com
 $boost=1,site=twitter.com
 $boost=1,site=linkedin.com
 $boost=1,site=xing.com
+
+!online reviews
+$boost=2,site=tripadvisor.de
+$boost=2,site=tripadvisor.at
+$boost=2,site=tripadvisor.ch
 
 ! Personal/Business contact information, path boost
 /kontakt*$boost=3
@@ -27,6 +34,7 @@ $boost=1,site=xing.com
 *adresse*$boost=1,site=de
 *adresse*$boost=1,site=at
 *adresse*$boost=1,site=ch
+*verein*$boost=1
 
 ! personal email
 *gmx*$boost=1
@@ -34,4 +42,4 @@ $boost=1,site=xing.com
 *t-online*$boost=1
 *gmail*$boost=1
 *yahoo*$boost=1
-
+*Postadresse*$boost=1
